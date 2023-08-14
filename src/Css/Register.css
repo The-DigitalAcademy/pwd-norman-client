@@ -1,0 +1,41 @@
+.RegisterBody {
+    width: 100%;
+    height: 80rem;
+    background-image: url(https://images.unsplash.com/photo-1495929427389-a6451f2e01fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    font: normal 15px Roboto, arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, cursive !important;
+
+}
+
+.form-register {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    color: white;
+    box-shadow: 0 1px 0 #cfcfcf;
+
+}
+h1{
+    color:white!important;
+}
+
+/* .form-group{
+    background:transparent!important;
+    color:rgb(233, 9, 9)!important;
+    font-size: 18px!important;
+}
+.form-group {
+    border-radius: 10px;
+} */
+button{
+    background-color: rgb(8, 193, 244);
+    width: 100%;
+}
