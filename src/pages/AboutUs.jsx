@@ -12,6 +12,7 @@ import Farm from '../assets/Farm.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
 import Glass from '../assets/Glass.jpg'
 import WineBottle from '../assets/Wine-Bottle.avif'
+import Bonke from '../assets/Nyamalala.jpg'
 
 const AboutUs = () => {
   return (
@@ -58,7 +59,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
 
-            <img id="wineGlass" src={image} alt="john" />
+            <img id="wineGlass" src={Bonke} alt="Bonke" />
 
             {/* <img src="/w3images/team3.jpg" alt="John" style= {{ width : "100%"}}/> */}
             <div class="container">
