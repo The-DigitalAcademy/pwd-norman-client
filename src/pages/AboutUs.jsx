@@ -6,7 +6,7 @@ import '../Css/AboutUs.css';
 
 //Pictures//
 import image from "../assets/wine-glass.jpg";
-import nom from '../assets/wine-glasses.jpg';
+import ndu from '../assets/Nduduzo.png';
 import norman from '../assets/Norman.jpg';
 import Farm from '../assets/Sonke.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
@@ -28,14 +28,14 @@ const AboutUs = () => {
       <div class="row">
         <div class="column">
           <div class="card">
-            <img id="wineGlass" src={nom} alt="Wine Glass" />
+            <img id="wineGlass" src={ndu} alt="Wine Glass" />
             <div class="container">
               <h2>Nduduza Miya</h2>
               <p class="title">Managing Director</p>
               <p>Managing Director is focused on the highly-specialized day-to-day 
                 <br/>business initiatives that must be implemented to achieve those 
                 <br/>goals in specific areas of focus (product, sales, etc.).</p>
-              <p>Ndudza@gmail.com</p>
+              <p>Ndu@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
