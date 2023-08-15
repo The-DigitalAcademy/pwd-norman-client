@@ -19,7 +19,7 @@ function Header() {
         <li className='item'><a href="/about">About</a></li>
         <li className='item button'><a href="/Login">Login</a></li>
         <li className='item button secondary'><a href="/register">Sign Up</a></li>
-        <li className='toggle'><a href="#"><span className="bars"></span></a></li>
+        <li className='toggle'><a href="#"><span className="bars"></span></a></li>zz
 
       </ul>
     </nav>
