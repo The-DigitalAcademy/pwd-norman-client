@@ -8,7 +8,7 @@ import '../Css/AboutUs.css';
 import image from "../assets/wine-glass.jpg";
 import nom from '../assets/wine-glasses.jpg';
 import norman from '../assets/Norman.jpg';
-import Farm from '../assets/Sonke.jpg';
+import Sonke from '../assets/Sonke.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
 import Glass from '../assets/Glass.jpg'
 import WineBottle from '../assets/Wine-Bottle.avif'
@@ -75,7 +75,7 @@ const AboutUs = () => {
         </div>
         <div class="column">
           <div class="card">
-            <img id="wineGlass" src={Farm} alt="Wine Glass" />
+            <img id="wineGlass" src={Sonke} alt="Wine Glass" />
             <div class="container">
               <h2>Sonke Mlambo</h2>
               <p class="title">Leader</p>
