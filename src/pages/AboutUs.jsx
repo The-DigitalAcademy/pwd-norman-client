@@ -136,6 +136,7 @@ const AboutUs = () => {
         </div>
       </div>
       <Footer />
+      {/* This is footer */}
     </div>
   )
 
