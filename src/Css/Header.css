@@ -10,6 +10,9 @@ nav{
     background: rgb(66, 66, 68);
     padding: 5px 20px;
 }
+.ImageLogo{
+    width: 55px;
+}
 ul{
     list-style-type: none;
 }

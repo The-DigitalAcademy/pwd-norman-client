@@ -9,32 +9,11 @@ import Cart from "../pages/Cart";
 
 function Header() {
   return (
-    // <Navbar bg="secondary" expand="lg">
-
-    //   <Navbar.Brand href="/">
-    //     <div className="logo">
-    //       <img src={winelogo} alt="winelogo" style={{ width: "35px" }} />
-    //     </div>
-    //   </Navbar.Brand>
-
-    //   <Nav className="listAuto">
-    //     <Nav.Link className="basic" href="/">Home</Nav.Link>
-    //     <NavDropdown title="Menu" className="basic-nav-dropdown">
-    //       <NavDropdown.Item className="NavMenu">
-    //         <Menu />
-    //       </NavDropdown.Item>
-    //     </NavDropdown>
-    //     <Nav.Link className="basic" href="/contact">Contact</Nav.Link>
-    //     <Nav.Link className="basic" href="/about">About</Nav.Link>
-    //     <Nav.Link className="basic" href="/Login">Sign Up</Nav.Link>
-    //     <Nav.Link className="basic" href="/register"></Nav.Link>
-    //     <Nav.Link className="basic" href="/Login"></Nav.Link>
-    //   </Nav>
-    // </Navbar>
-
+    
     <nav>
       <ul className='Menu'>
-        <li className='logo'><a href="/">NormanBillion</a></li>
+        < a href="/"><img className="ImageLogo" src={winelogo}/></a>
+        <li className='logo'><a href="/">The Farm Wine</a></li>
         <li className='item'><a href="/">Home</a></li>
         <li className='item'><a href="/menu">Menu</a></li>
         <li className='item'><a href="/contact">Contact</a></li>
