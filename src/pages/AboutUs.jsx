@@ -8,6 +8,7 @@ import '../Css/AboutUs.css';
 import image from "../assets/wine-glass.jpg";
 import nom from '../assets/wine-glasses.jpg';
 import norman from '../assets/Norman.jpg';
+import Nkosinathi from '../assets/Nkosinathi.jpg';
 import Farm from '../assets/Farm.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
 import Glass from '../assets/Glass.jpg'
@@ -120,7 +121,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
 
-            <img id="wineGlass" src={WineBottle} alt="john" />
+            <img id="wineGlass" src={Nkosinathi} alt="Nkosinathi" />
 
             {/* <img src="/w3images/team3.jpg" alt="John" style= {{ width : "100%"}}/> */}
             <div class="container">
@@ -128,7 +129,7 @@ const AboutUs = () => {
               <p class="title">Supervisor</p>
               <p>A supervisor oversees the day-to-day performance of employees. Depending on the 
                 <br/> company, a supervisor may manage a team, a shift or an entire department. </p>
-              <p>Nkosinathi@gmail.com</p>
+              <p>nkosinathimadonda02@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
