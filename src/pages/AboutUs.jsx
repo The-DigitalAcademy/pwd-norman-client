@@ -8,7 +8,7 @@ import '../Css/AboutUs.css';
 import image from "../assets/wine-glass.jpg";
 import nom from '../assets/wine-glasses.jpg';
 import norman from '../assets/Norman.jpg';
-import Farm from '../assets/Farm.jpg';
+import Farm from '../assets/Sonke.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
 import Glass from '../assets/Glass.jpg'
 import WineBottle from '../assets/Wine-Bottle.avif'
