@@ -22,7 +22,6 @@ const AboutUs = () => {
       <div class="about-section">
         <h1>Our Team</h1>
         <p>The team is debating how to construct a project around wine and farming.</p>
-        <p>Resize the browser window to see that this page is responsive by the way.</p>
       </div>
 
       
