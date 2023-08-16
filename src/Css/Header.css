@@ -7,11 +7,11 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav{
-    background: rgba(0, 0, 0, 0.927);
-    padding: 5px 20px;
+    background-color: rgb(66, 66, 68);
+    height: 8.5vh;
 }
 .ImageLogo{
-    width: 55px;
+    width: 40px;
 }
 ul{
     list-style-type: none;
@@ -19,6 +19,7 @@ ul{
 a{
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 a:hover{
     text-decoration:underline;
@@ -106,7 +107,6 @@ a:hover{
     .button a{
         text-decoration: none;
         padding: 7px 15px;
-        background: rgb(9, 246, 246);
         border: 1px solid rgb(0, 213, 255);
         border-radius: 50rem;
     }
@@ -117,9 +117,7 @@ a:hover{
         transition: all .25s;
     }
     .button:not(.secondary) a:hover{
-        background: rgb(9, 246, 246);
-        border-color: rgb(9, 246, 246);
-        
+        border-color: rgb(9, 246, 246);        
     }
     .button.secondary a:hover{
         color: #ddd;

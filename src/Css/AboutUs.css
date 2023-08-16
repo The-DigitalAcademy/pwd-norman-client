@@ -8,13 +8,12 @@ body {
     border-radius: 100px;
     width: 200px;
     height: 200px;
-
   }
   .background-image{
     background-image: url(https://images.unsplash.com/photo-1558138818-d44c4dea7a6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
     
   }
-  
+
   html {
     box-sizing: border-box;
   }
@@ -43,15 +42,18 @@ body {
   }
   
   .about-section {
-    padding: 10px;
+    padding: 0px;
     text-align: center;
-    background-color: #474e5d;
     color: white;
     
+  }
+  p{
+    font-weight: bolder;
   }
   
   .container {
     padding: 0 16px;
+    width: 590px;
   }
   
   .container::after, .row::after {
