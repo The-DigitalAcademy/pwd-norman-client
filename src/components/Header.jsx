@@ -8,10 +8,10 @@ import winelogo from "../assets/wine-logo.jpg"
 
 function Header() {
   return (
-
+    
     <nav>
       <ul className='Menu'>
-        < a href="/"><img className="ImageLogo" src={winelogo} /></a>
+        < a href="/"><img className="ImageLogo" src={winelogo}/></a>
         <li className='logo'><a href="/">The Farm Wine</a></li>
         <li className='item'><a href="/">Home</a></li>
         <li className='item'><a href="/menu">Menu</a></li>
@@ -20,7 +20,6 @@ function Header() {
         <li className='item button'><a href="/Login">Login</a></li>
         <li className='item button secondary'><a href="/register">Sign Up</a></li>
         <li className='toggle'><a href="#"><span className="bars"></span></a></li>
-
 
       </ul>
     </nav>
