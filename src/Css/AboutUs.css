@@ -5,9 +5,9 @@ body {
   }
   #wineGlass{
     box-sizing: border-box;
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
+    border-radius: 101px;
+    width: 201px;
+    height: 201px;
   }
   .background-image{
     background-image: url(https://images.unsplash.com/photo-1558138818-d44c4dea7a6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
@@ -53,7 +53,7 @@ body {
   
   .container {
     padding: 0 16px;
-    width: 590px;
+    width: 591px;
   }
   
   .container::after, .row::after {
@@ -63,7 +63,7 @@ body {
   }
   
   .title {
-    color:cyan;
+    color:rgb(0, 255, 17);
     font-weight: bolder;
     font-size: x-large;
 
@@ -73,7 +73,7 @@ body {
     border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px;
+    padding: 9px;
     color: white;
     background-color: #000;
     text-align: center;
@@ -85,7 +85,7 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 651px) {
     .column {
       width: 100%;
       display: block;
