@@ -1,11 +1,13 @@
 @import url('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lexend Peta', sans-serif;
     box-sizing: border-box;
 }
-.contact{
+
+.contact {
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -13,59 +15,68 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("C:\Users\Sonke\Desktop\pwd-norman-client\src\assets\istockphoto-Watrtmark.jpeg");
+    background: url("../assets/istockphoto-Watrtmark.jpeg");
     background-size: cover;
 }
-.contact .content{
+
+.contact .content {
     max-width: 800px;
     text-align: center;
 }
-.contact .content h2{
+
+.contact .content h2 {
     font-size: 36px;
     font-weight: 500;
     color: #fdfbfb;
     margin-bottom: 20px;
 }
-.contact .content p{
+
+.contact .content p {
     font-weight: 300;
     color: #0c0000;
 }
-.container{
+
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.container .contactInfo{
+
+.container .contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-.container .contactInfo .box{
+
+.container .contactInfo .box {
     position: relative;
     padding: 20px 0;
     display: flex;
 }
-.container .contactInfo .box .icon{
+
+.container .contactInfo .box .icon {
     min-width: 60px;
     height: 60px;
-    background: #f4f5f67e;
+    background: #f4f6f8fe;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
 }
-.container .contactInfo .box .text h3{
+
+.container .contactInfo .box .text h3 {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: rgb(26, 30, 2);
+    color: rgb(243, 244, 239);
     /* flex-direction: column; */
     font-weight: 500;
 }
-.container .contactInfo .box .text p{
+
+.container .contactInfo .box .text p {
     display: flex;
     margin-left: 20px;
     font-size: 16px;
@@ -73,24 +84,32 @@
     /* flex-direction: column; */
     font-weight: 300;
 }
-.contactForm{
+
+.contactForm {
     width: 40%;
     padding: 40px;
-    background: #2e2e2e;
+    background: #e9e7e7;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #f7f2f2fb;
+    background: transparent;
 
 }
-.contactForm h2{
+
+[3:34 PM] .contactForm h2 {
     font-size: 30px;
-    color: #333;
+    color: #faf5f5;
     font-weight: 500;
 }
-.contactForm .inputBox{
+
+.contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
+
 .contactForm .inputBox input,
-.contactForm .inputBox textarea{
+.contactForm .inputBox textarea {
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -100,7 +119,8 @@
     outline: none;
     resize: none;
 }
-.contactForm .inputBox span{
+
+.contactForm .inputBox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -110,15 +130,17 @@
     transition: 0.5s;
     color: #666;
 }
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span{
-    color: #ff0000;
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #e8e0e0;
     font-size: 12px;
     transform: translateY(-20px);
 }
-.contactForm .inputBox input[type="submit"]{
+
+.contactForm .inputBox input[type="submit"] {
     width: 100px;
     background: #00bcd4;
     color: #fff;

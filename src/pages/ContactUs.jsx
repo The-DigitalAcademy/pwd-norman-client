@@ -37,7 +37,10 @@ const ContactUs = () => {
                 </p>
               </div>
             </div>
-            <div className="box">
+
+[3:36 PM]
+
+<div className="box">
               <div className="icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
               </div>
