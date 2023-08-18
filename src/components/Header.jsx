@@ -1,9 +1,4 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "../Css/Header.css";
-import Menu from "./Menu";
 import winelogo from "../assets/wine-logo.jpg"
 
 function Header() {
