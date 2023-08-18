@@ -19,16 +19,16 @@
       font-size:18px!important;
   }
   .form-login {
-      background-color: rgba(0,0,0,0.55);
-      padding-top: 10px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 15px;
-      border-color:#d2d2d2;
-      border-width: 5px;
-      color:white;
-      box-shadow:0 1px 0 #cfcfcf;
+    background-color: rgba(0, 0, 0, 0.695);
+    padding-top: 24px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    color: white;
+    box-shadow: 0 1px 0 #cfcfcf;
   }
   .form-control{
       background:transparent!important;
@@ -58,6 +58,9 @@
       font-size: 18px;
   }
   button{
-      background-color: rgb(8, 193, 244);
-      width: 100%;
+      background-color: rgb(21, 73, 227);
+      width: 90%;
+      border-radius: 10px;
+    
   }
+  

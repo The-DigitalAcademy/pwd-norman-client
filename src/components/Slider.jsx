@@ -4,12 +4,13 @@ import Video from './Video';
 
 const image = [
   'https://www.kleinwelmoed.co.za/images/home-slider/1.jpg',
-  'https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+  'https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_1280.jpg',
   'https://images.unsplash.com/photo-1645536097695-3a8e187da245?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+  'https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
   'https://images.unsplash.com/photo-1604349758435-eaad6ae8075e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
   'https://images.unsplash.com/photo-1471967183320-ee018f6e114a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
   'https://i0.wp.com/yearinwine.com/wp-content/uploads/2022/03/ezy-watermark_02-03-2022_04-54-23pm-scaled.jpg?resize=1920%2C960',
-  'https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_1280.jpg',
+ 
   
 ]
 
