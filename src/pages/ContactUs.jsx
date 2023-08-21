@@ -11,7 +11,7 @@ const ContactUs = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
       <section className="contact">
         <div className="content">
           <h2>Contact Us</h2>
@@ -27,16 +27,14 @@ const ContactUs = () => {
                 <p>
                   The Media Mill, 7 Quince street
                   <br />
-                 Johannesburg
+                  Johannesburg
                   <br />
-                 2092
+                  2092
                 </p>
               </div>
             </div>
-
-[3:36 PM]
-
-<div className="box">
+            [3:36 PM]
+            <div className="box">
               <div className="icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
               </div>
@@ -77,7 +75,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
