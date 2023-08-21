@@ -11,14 +11,10 @@ const ContactUs = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
       <section className="contact">
         <div className="content">
           <h2>Contact Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            nihil odit adipisci illo inventore eum, corrupti commodi delectus.
-          </p>
         </div>
         <div className="container">
           <div className="contactInfo">
@@ -29,24 +25,22 @@ const ContactUs = () => {
               <div className="text">
                 <h3>Address</h3>
                 <p>
-                  1234 Pachora Road,
+                  The Media Mill, 7 Quince street
                   <br />
-                  Pune,India,
+                  Johannesburg
                   <br />
-                  14568
+                  2092
                 </p>
               </div>
             </div>
-
-[3:36 PM]
-
-<div className="box">
+            [3:36 PM]
+            <div className="box">
               <div className="icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
               </div>
               <div className="text">
                 <h3>Phone</h3>
-                <p>12345678</p>
+                <p>0615449366</p>
               </div>
             </div>
             <div className="box">
@@ -55,7 +49,7 @@ const ContactUs = () => {
               </div>
               <div className="text">
                 <h3>Email</h3>
-                <p>abc@gmail.com</p>
+                <p>Info@thedigitalacademy.co.za</p>
               </div>
             </div>
           </div>
@@ -81,7 +75,7 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

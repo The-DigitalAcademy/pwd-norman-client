@@ -9,8 +9,8 @@ import ndu from '../assets/Nduduzo.png';
 import norman from '../assets/Norman.jpg';
 import Sonke from '../assets/Sonke.jpg';
 import Nkosinathi from '../assets/Nkosinathi.jpg';
-import FarmGrape from '../assets/FarmGrape.jpg';
-import Glass from '../assets/Glass.jpg'
+import Thozama from '../assets/Thozama.png';
+import Sibongile from '../assets/photoCV.png'
 import Bonke from '../assets/Nyamalala.jpg'
 
 const AboutUs = () => {
@@ -85,7 +85,7 @@ const AboutUs = () => {
 
         <div class="column">
           <div class="card">
-            <img id="wineGlass" src={FarmGrape} alt="norman" />
+            <img id="wineGlass" src={Sibongile} alt="norman" />
             <div class="container">
               <h2>Sibongile Nhlapo</h2>
               <p class="title">Manager</p>
@@ -99,7 +99,7 @@ const AboutUs = () => {
 
         <div class="column">
           <div class="card">
-            <img id="wineGlass" src={Glass} alt="john" />
+            <img id="wineGlass" src={Thozama} alt="john" />
             <div class="container">
               <h2> Thozama Marasela</h2>
               <p class="title">Staff</p>
