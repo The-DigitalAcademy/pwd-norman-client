@@ -45,6 +45,9 @@ a:hover{
     align-items: center;
     height: 7vh;
 }
+.Cartbag{
+color: white;
+}
 
 .toggle{
     order: 1;
