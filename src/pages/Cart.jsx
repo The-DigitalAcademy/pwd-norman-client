@@ -3,8 +3,6 @@ import '../Css/Cart.css'
 import Footer from './Footer'
 import Headers from '../components/Header'
 
-
-
 const Cart = () => {
   return (
     <div>
