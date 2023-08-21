@@ -22,7 +22,6 @@ const AboutUs = () => {
         <p>The team is debating how to construct a project around wine and farming.</p>
       </div>
 
-      
       <div class="row">
         <div class="column">
           <div class="card">
