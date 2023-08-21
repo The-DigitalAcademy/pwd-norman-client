@@ -4,15 +4,13 @@ import Footer from './Footer';
 import '../Css/AboutUs.css';
 
 
-//Pictures//
-import image from "../assets/wine-glass.jpg";
+//Profile Pictures//
 import ndu from '../assets/Nduduzo.png';
 import norman from '../assets/Norman.jpg';
 import Sonke from '../assets/Sonke.jpg';
 import Nkosinathi from '../assets/Nkosinathi.jpg';
 import FarmGrape from '../assets/FarmGrape.jpg';
 import Glass from '../assets/Glass.jpg'
-import WineBottle from '../assets/Wine-Bottle.avif'
 import Bonke from '../assets/Nyamalala.jpg'
 
 const AboutUs = () => {
@@ -20,9 +18,8 @@ const AboutUs = () => {
     <div className='background-image'>
       <Header />
       <div class="about-section">
-        <h1>Our Team</h1>
+        <h2>Our Team</h2>
         <p>The team is debating how to construct a project around wine and farming.</p>
-        <p>Resize the browser window to see that this page is responsive by the way.</p>
       </div>
 
       
@@ -61,8 +58,6 @@ const AboutUs = () => {
           <div class="card">
 
             <img id="wineGlass" src={Bonke} alt="Bonke" />
-
-            {/* <img src="/w3images/team3.jpg" alt="John" style= {{ width : "100%"}}/> */}
             <div class="container">
               <h2>Bonke Nyamalala</h2>
               <p class="title">Business Designer</p>
@@ -104,10 +99,7 @@ const AboutUs = () => {
 
         <div class="column">
           <div class="card">
-
             <img id="wineGlass" src={Glass} alt="john" />
-
-            {/* <img src="/w3images/team3.jpg" alt="John" style= {{ width : "100%"}}/> */}
             <div class="container">
               <h2> Thozama Marasela</h2>
               <p class="title">Staff</p>
@@ -121,10 +113,7 @@ const AboutUs = () => {
 
         <div class="column">
           <div class="card">
-
             <img id="wineGlass" src={Nkosinathi} alt="Nkosinathi" />
-
-            {/* <img src="/w3images/team3.jpg" alt="John" style= {{ width : "100%"}}/> */}
             <div class="container">
               <h2> Nkosinathi Madonda</h2>
               <p class="title">Supervisor</p>
