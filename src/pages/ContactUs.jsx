@@ -33,7 +33,6 @@ const ContactUs = () => {
                 </p>
               </div>
             </div>
-            [3:36 PM]
             <div className="box">
               <div className="icon">
                 <i className="fa fa-phone" aria-hidden="true"></i>
@@ -54,7 +53,10 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="contactForm">
-            <form>
+            <form
+              action="https://formsubmit.co/sonkemlambo068@gmail.com"
+              method="POST"
+            >
               <h2>Send Message</h2>
               <div className="inputBox">
                 <input type="text" required="required" />
