@@ -5,13 +5,15 @@ body {
   }
   #wineGlass{
     box-sizing: border-box;
-    border-radius: 101px;
-    width: 201px;
-    height: 201px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
   }
   .background-image{
     background-image: url(https://images.unsplash.com/photo-1558138818-d44c4dea7a6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
-    
+  }
+  h2{
+    font-size: small;
   }
 
   html {
@@ -33,7 +35,7 @@ body {
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 300px;
+    border-radius: 100px;
     margin: 8px;
     width: 90%;
     background-color: transparent;
@@ -49,11 +51,12 @@ body {
   }
   p{
     font-weight: bolder;
+    font-size: small;
   }
   
   .container {
     padding: 0 16px;
-    width: 591px;
+    width: 100px;
   }
   
   .container::after, .row::after {
@@ -63,10 +66,9 @@ body {
   }
   
   .title {
-    color:rgb(0, 255, 17);
+    color:rgb(8, 243, 75);
     font-weight: bolder;
-    font-size: x-large;
-
+    font-size:x-small;
   }
   
   .button {
@@ -85,7 +87,7 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 651px) {
+  @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
