@@ -96,7 +96,7 @@
 
 }
 
-[3:34 PM] .contactForm h2 {
+.contactForm h2 {
     font-size: 30px;
     color: #faf5f5;
     font-weight: 500;
@@ -130,11 +130,11 @@
     transition: 0.5s;
     color: #666;
 }
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
 
-.contactForm .inputBox input:focus~span,
-.contactForm .inputBox input:valid~span,
-.contactForm .inputBox textarea:focus~span,
-.contactForm .inputBox textarea:valid~span {
     color: #e8e0e0;
     font-size: 12px;
     transform: translateY(-20px);
@@ -146,6 +146,5 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+
 }

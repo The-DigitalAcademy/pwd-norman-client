@@ -40,8 +40,8 @@ function Login() {
       <div className="LoginBody">
         <div className="row">
           <div className='col-md-offset-5 col-md-4 text-center"'>
-            <h1 class="text-white">Login</h1>
             <div class="form-login">
+            <h1 class="text-white">Login</h1>
               <br />
               <input
                 type="text"

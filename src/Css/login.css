@@ -4,18 +4,18 @@
     background-image:url(https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80);
     background-position:center;
     background-size:cover;
-    
+
     -webkit-font-smoothing: antialiased;
     font: normal 15px Roboto,arial,sans-serif;
     font-family:'Times New Roman', Times, serif, cursive!important;
   }
-  
+
   .container {
       padding: 110px;
   }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ /
       color: #ffffff!important;
-      opacity: 1; /* Firefox */
+      opacity: 1; / Firefox */
       font-size:18px!important;
   }
   .form-login {
@@ -29,6 +29,7 @@
     border-width: 5px;
     color: white;
     box-shadow: 0 1px 0 #cfcfcf;
+    margin-top: 25vh;
   }
   .form-control{
       background:transparent!important;
@@ -44,7 +45,7 @@
    padding-bottom:10px;
    text-align: center;
   }
-  
+
   .form-control {
       border-radius: 10px;
   }
@@ -61,6 +62,5 @@
       background-color: rgb(21, 73, 227);
       width: 90%;
       border-radius: 10px;
-    
+
   }
-  

@@ -3,7 +3,6 @@ import Header from '../components/Header';
 import Footer from './Footer';
 import '../Css/AboutUs.css';
 
-
 //Profile Pictures//
 import ndu from '../assets/Nduduzo.png';
 import norman from '../assets/Norman.jpg';
@@ -22,13 +21,14 @@ const AboutUs = () => {
         <p>The team is debating how to construct a project around wine and farming.</p>
       </div>
 
-      
       <div class="row">
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={ndu} alt="Wine Glass" />
+
             <div class="">
               <h2>Nduduza Miya</h2>
+
               <p class="title">Managing Director</p>
                <p>Managing Director is focused on the highly-specialized day-to-day 
                 <br/>business initiatives that must be implemented to achieve those 

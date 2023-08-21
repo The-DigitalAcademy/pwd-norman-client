@@ -1,14 +1,23 @@
 body {
+
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-#wineGlass {
-  box-sizing: border-box;
-  border-radius: 101px;
-  width: 201px;
-  height: 201px;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  #wineGlass{
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  h2{
+    font-size: small;
+  }
+
+
 
 .background-image {
   background-image: url(https://images.unsplash.com/photo-1558138818-d44c4dea7a6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
