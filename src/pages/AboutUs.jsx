@@ -3,7 +3,6 @@ import Header from '../components/Header';
 import Footer from './Footer';
 import '../Css/AboutUs.css';
 
-
 //Profile Pictures//
 import ndu from '../assets/Nduduzo.png';
 import norman from '../assets/Norman.jpg';
