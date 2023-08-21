@@ -28,7 +28,7 @@ const AboutUs = () => {
           <div class="card">
             <img id="wineGlass" src={ndu} alt="Wine Glass" />
             <div class="container">
-              <h2>Nduduza Miya</h2>
+              <h2>Nduduzo Miya</h2>
               <p class="title">Managing Director</p>
               <p>Managing Director is focused on the highly-specialized day-to-day 
                 <br/>business initiatives that must be implemented to achieve those 

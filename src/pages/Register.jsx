@@ -22,10 +22,21 @@ function Register() {
 
   return (
     <div>
-      <Header />
       <div className="RegisterBody">
+      <Header />
         <form className="form-register">
-        <h1>Register</h1>
+        <h1>Registration</h1>
+        <div className="form-group">
+            <input type="name"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter name"
+              name='name'
+              defaultValue={AddUser.email}
+              onChange={handleChange}
+            />
+          </div>
           <div className="form-group">
             <input type="email"
               className="form-control"
@@ -42,7 +53,17 @@ function Register() {
             <input type="password"
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="Password"
+              placeholder="Enter Password"
+              name='password'
+              defaultValue={AddUser.password}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group">
+            <input type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+              placeholder="Enter Re-Password"
               name='password'
               defaultValue={AddUser.password}
               onChange={handleChange}

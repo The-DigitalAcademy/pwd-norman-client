@@ -26,7 +26,7 @@ function Login() {
   function Login() {
 
     if (user == usernameT && password == passwordT) {
-     alert('Login Successfully')
+      alert('Login Successfully')
       navigate("/");
     }
     else {
@@ -36,18 +36,21 @@ function Login() {
 
   return (
     <div>
-      <Header />
       <div className="LoginBody">
+
+      <Header /> 
+
         <div className="row">
           <div className='col-md-offset-5 col-md-4 text-center"'>
-            <h1 class="text-white">Login</h1>
+
             <div class="form-login">
+              <h1 class="text-white">Login</h1>
               <br />
               <input
                 type="text"
                 id="userName"
                 class="form-control input-sm chat-input"
-                placeholder="Username"
+                placeholder="E-mail"
                 value={usernameT}
                 onChange={e => setUsernameT(e.target.value)}
               />
