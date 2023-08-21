@@ -50,7 +50,7 @@
 .container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
-    background: #f4f5f67e;
+    background: #f4f6f8fe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@
     display: flex;
     margin-left: 20px;
     font-size: 16px;
-    color: rgb(26, 30, 2);
+    color: rgb(243, 244, 239);
     /* flex-direction: column; */
     font-weight: 500;
 }
@@ -76,12 +76,16 @@
 .contactForm{
     width: 40%;
     padding: 40px;
-    background: #2e2e2e;
+    background: #e9e7e7;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #f7f2f2fb;
+    background: transparent;
 
 }
 .contactForm h2{
     font-size: 30px;
-    color: #333;
+    color: #faf5f5;
     font-weight: 500;
 }
 .contactForm .inputBox{
@@ -114,7 +118,7 @@
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span{
-    color: #ff0000;
+    color: #e8e0e0;
     font-size: 12px;
     transform: translateY(-20px);
 }
