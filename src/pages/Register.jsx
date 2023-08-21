@@ -48,6 +48,18 @@ function Register() {
               onChange={handleChange}
             />
           </div>
+
+          <div className="form-group">
+            <input type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+              placeholder="Re-Password"
+              name='password'
+              defaultValue={AddUser.password}
+              onChange={handleChange}
+            />
+          </div>
+
           <Link to="/login"> Have account already? Login Here</Link>
           <br />
           <button onClick={AddUser}>Register</button>
