@@ -14,6 +14,7 @@ import Menu from './components/Menu';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import ContextState from './context/ContextState';
+import Cart from './pages/Cart';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/menu",
     element: <Menu/>,
+  },
+  {
+    path: "/cart",
+    element: <Cart/>,
   },
   
   
