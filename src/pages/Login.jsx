@@ -36,9 +36,10 @@ function Login() {
 
   return (
     <div>
+      <Header /> 
       <div className="LoginBody">
 
-      <Header /> 
+      
 
         <div className="row">
           <div className='col-md-offset-5 col-md-4 text-center"'>
