@@ -96,7 +96,7 @@
 
 }
 
-[3:34 PM] .contactForm h2 {
+.contactForm h2 {
     font-size: 30px;
     color: #faf5f5;
     font-weight: 500;
@@ -147,3 +147,4 @@
     border: none;
     cursor: pointer;
 
+}
