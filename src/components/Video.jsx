@@ -3,12 +3,8 @@ import '../Css/Video.css'
 
 function Video() {
     return (
-        <div>
-            <iframe src='https://assets.mixkit.co/videos/preview/mixkit-woman-drinking-wine-with-her-dog-6184-large.mp4'
-                autoplay muted loop
-                allow='autoplay;'
-                allowFullScreen
-            />            
+        <div className='video'>
+          <iframe src="https://assets.mixkit.co/videos/preview/mixkit-woman-drinking-wine-with-her-dog-6184-large.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>          
         </div>
     )
 }

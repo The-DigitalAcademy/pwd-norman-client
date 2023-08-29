@@ -3,7 +3,7 @@ import Social from './Social'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
       <Social/>
     </div>
   )
