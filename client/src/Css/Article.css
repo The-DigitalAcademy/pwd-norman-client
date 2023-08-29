@@ -1,7 +1,19 @@
+<<<<<<< HEAD:src/Css/Article.css
 .wine{
 justify-content: center;
+=======
+.col{
+    background-color: rgb(35, 35, 36);
 }
-.container
-{
-    background-color: pink;
+.article{
+    width: 207rem;
+}
+.card-title{
+    color:rgb(234, 234, 114);
+    font-weight:bolder;
+}
+.card-text{
+    font-weight:bolder;
+    margin-left: -20rem;
+>>>>>>> 6eefae607ba4037ed430b5704d302b746eea7e4f:client/src/Css/Article.css
 }
