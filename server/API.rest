@@ -1,0 +1,4 @@
+### View the Products
+
+
+http://localhost:8000/api/products
