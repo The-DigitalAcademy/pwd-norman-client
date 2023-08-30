@@ -101,6 +101,11 @@ p {
   
 }
 
+.Nkosinathi
+{
+  margin-left: 50rem;
+}
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
