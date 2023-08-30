@@ -3,10 +3,6 @@ import '../Css/Article.css'
 
 function Article() {
   return (
-<<<<<<< HEAD:src/pages/Article.jsx
-    <div className='wine'>Article
-    
-=======
     <div className='article'>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
@@ -37,7 +33,6 @@ function Article() {
           </div>
         </div>
       </div>
->>>>>>> 6eefae607ba4037ed430b5704d302b746eea7e4f:client/src/pages/Article.jsx
     </div>
   )
 }
