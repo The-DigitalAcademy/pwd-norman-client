@@ -113,7 +113,7 @@ const AboutUs = () => {
         </div>
 
         <div class="column">
-          <div class="card">
+          <div class="card Nkosinathi">
             <img id="wineGlass" src={Nkosinathi} alt="Nkosinathi" />
             <div class="">
               <h2> Nkosinathi Madonda</h2>
