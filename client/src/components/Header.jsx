@@ -8,6 +8,9 @@ function Header() {
       <ul className='Menu'>
         < a href="/"><img className="ImageLogo" src={winelogo} /></a>
         <li className='logo'><a href="/">The Farm Wine</a></li>
+        <div className="form-control">
+          <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+        </div>
         <li className='item'><a href="/">Home</a></li>
         <li className='item'><a href="/menu">Menu</a></li>
         <li className='item'><a href="/contact">Contact</a></li>
