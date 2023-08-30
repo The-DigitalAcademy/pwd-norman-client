@@ -42,9 +42,10 @@ html {
   border-radius: 100px;
   margin: 8px;
   width: 90%;
+  padding-left: 7rem;
   background-color: transparent;
-  border: none;
   color: white;
+  border: none;
 }
 
 .about-section {
@@ -98,12 +99,11 @@ p {
 
 .button:hover {
   background-color: #555;
-  
 }
 
 .Nkosinathi
 {
-  margin-left: 50rem;
+  margin-left: 65rem;
 }
 
 @media screen and (max-width: 650px) {

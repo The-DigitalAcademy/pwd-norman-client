@@ -50,7 +50,9 @@ const AboutUs = () => {
                 <br/>managing overall operations, and setting the company's strategic 
                 <br/>direction.</p>
               <p>NormanDa@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
@@ -66,7 +68,9 @@ const AboutUs = () => {
                 <br/>business model affects the consumer and client 
                 <br/>experience</p>
               <p>Bonke@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
@@ -79,7 +83,9 @@ const AboutUs = () => {
               <p>Leadership is the act of guiding a team or individual to achieve 
                 <br/>a certain goal through direction and motivation.</p>
               <p>Sonke@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
@@ -93,7 +99,9 @@ const AboutUs = () => {
               <p>a process of getting the work or the task done that is required for 
                 <br/>achieving the goals of an organisation in an efficient.</p>
               <p>Sibongile@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -107,7 +115,9 @@ const AboutUs = () => {
               <p>A group of people who work for an organization, often for a special
                 <br/> purpose, or who work for a manager within an organization</p>
               <p>Thozama@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
@@ -121,7 +131,9 @@ const AboutUs = () => {
               <p>A supervisor oversees the day-to-day performance of employees. Depending on the 
                 <br/> company, a supervisor may manage a team, a shift or an entire department. </p>
               <p>nkosinathimadonda02@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+              <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
