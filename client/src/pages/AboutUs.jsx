@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from './Footer';
 import '../Css/AboutUs.css';
+import { Link } from 'react-router-dom';
 
 //Profile Pictures//
 import ndu from '../assets/Nduduzo.png';
@@ -32,7 +33,9 @@ const AboutUs = () => {
                 <br/>business initiatives that must be implemented to achieve those 
                 <br/>goals in specific areas of focus (product, sales, etc.).</p>
               <p>Ndu@gmail.com</p>
-              <p><button class="button">Contact</button></p>
+                <Link to="/contact">
+                <button class="button">Contact</button>
+                </Link>
             </div>
           </div>
         </div>
@@ -110,7 +113,7 @@ const AboutUs = () => {
         </div>
 
         <div class="column">
-          <div class="card">
+          <div class="card Nkosinathi">
             <img id="wineGlass" src={Nkosinathi} alt="Nkosinathi" />
             <div class="">
               <h2> Nkosinathi Madonda</h2>
