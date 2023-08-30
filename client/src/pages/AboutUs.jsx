@@ -25,7 +25,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={ndu} alt="Wine Glass" />
-            <div class="container">
+            <div class="">
               <h2>Nduduzo Miya</h2>
               <p class="title">Managing Director</p>
               <p>Managing Director is focused on the highly-specialized day-to-day 
@@ -40,7 +40,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={norman} alt="norman" />
-            <div class="container">
+            <div class="">
               <h2>Norman Billion</h2>
               <p class="title">Chief Executive Officer - CEO</p>
               <p>The CEO is responsible for making major corporate decisions, 
@@ -56,7 +56,7 @@ const AboutUs = () => {
           <div class="card">
 
             <img id="wineGlass" src={Bonke} alt="Bonke" />
-            <div class="container">
+            <div class="">
               <h2>Bonke Nyamalala</h2>
               <p class="title">Business Designer</p>
               <p> Business designers think about how every element of the 
@@ -70,7 +70,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={Sonke} alt="Wine Glass" />
-            <div class="container">
+            <div class="">
               <h2>Sonke Mlambo</h2>
               <p class="title">Leader</p>
               <p>Leadership is the act of guiding a team or individual to achieve 
@@ -84,7 +84,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={Sibongile} alt="norman" />
-            <div class="container">
+            <div class="">
               <h2>Sibongile Nhlapo</h2>
               <p class="title">Manager</p>
               <p>a process of getting the work or the task done that is required for 
@@ -98,7 +98,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={Thozama} alt="john" />
-            <div class="container">
+            <div class="">
               <h2> Thozama Marasela</h2>
               <p class="title">Staff</p>
               <p>A group of people who work for an organization, often for a special
@@ -112,7 +112,7 @@ const AboutUs = () => {
         <div class="column">
           <div class="card">
             <img id="wineGlass" src={Nkosinathi} alt="Nkosinathi" />
-            <div class="container">
+            <div class="">
               <h2> Nkosinathi Madonda</h2>
               <p class="title">Supervisor</p>
               <p>A supervisor oversees the day-to-day performance of employees. Depending on the 
