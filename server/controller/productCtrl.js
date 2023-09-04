@@ -1,3 +1,4 @@
+//Controller
 
 const PRODUCTS_MOCK = require('../productData')
 const getAllProducts = (req, res) => {
