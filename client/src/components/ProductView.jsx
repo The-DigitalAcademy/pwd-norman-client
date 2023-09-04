@@ -4,6 +4,8 @@ import { useParams } from "react-router-dom";
 import Header from "./Header";
 import '../Css/ProductView.css'
 import Footer from "../pages/Footer";
+import cartManager from "../utils/cartManager";
+
 function ProductView() {
   const { title } = useParams();
   return (
@@ -19,6 +21,7 @@ function ProductView() {
               <p className="card-text">{menu.price}</p>
               <p className="card-text">Litre:{menu.litre}</p>
             </div>
+            <button className="btn btn-success" onClick={(e)=>cartManager.addItem(menu)}>Add To Cart</button>
           </div>
         ))}
       <Footer />
