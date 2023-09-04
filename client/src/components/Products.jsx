@@ -19,9 +19,7 @@ function Products(props) {
     <>
     <Header/>
       <div className="cards-container">
-       
          {product.map((menu) => {
-
           return (
             <div key={menu.id} className="card">
               <img src={menu.image} className="card_img" />
@@ -31,7 +29,7 @@ function Products(props) {
                 <p className="card-text">{menu.price}</p>
 
                 <Link to={`/menu/${menu.name}`}>
-                  <Button>Chart</Button>
+                  <Button>Cart</Button>
                 </Link>
               </div>
             </div>
