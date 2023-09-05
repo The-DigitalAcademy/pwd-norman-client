@@ -31,7 +31,7 @@ function Slider() {
   return (
 
     <Carousel >
-      <Carousel.Item >
+      <Carousel.Item className='frame' >
         <Video />
       </Carousel.Item>
       {
