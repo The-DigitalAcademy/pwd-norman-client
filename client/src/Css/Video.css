@@ -1,0 +1,12 @@
+video {
+
+        height: 100vh;
+        pointer-events: none;
+        margin-left: 12rem;
+
+}
+.video_container
+{
+        width: 100%;
+        background-color: black;
+}
