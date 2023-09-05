@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wine{
 justify-content: center;
 <<<<<<< HEAD
@@ -13,4 +14,19 @@ justify-content: center;
 >>>>>>> bb6159ea3fd807131ca8744512950a483ed75144:client/src/Css/Article.css
 =======
 >>>>>>> bb6159ea3fd807131ca8744512950a483ed75144
+=======
+.col{
+    background-color: rgb(35, 35, 36);
+}
+.article{
+    width: 100%;
+}
+.card-title{
+    color: rgb(234, 234, 114);
+    font-weight: bolder;
+}
+.card-text{
+    font-weight: bolder;
+    margin-left: -20rem;
+>>>>>>> origin/main
 }

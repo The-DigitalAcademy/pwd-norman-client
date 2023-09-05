@@ -8,9 +8,8 @@ function Video() {
                 autoplay muted loop
                 allow='autoplay;'
                 allowFullScreen
-            />            
+            />
         </div>
     )
 }
-
 export default Video
