@@ -38,13 +38,13 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 100px;
+
   margin: 8px;
   width: 90%;
+  padding-left: 7rem;
   background-color: transparent;
-  border: none;
   color: white;
+  border: none;
 }
 
 .about-section {
@@ -62,7 +62,13 @@ p {
 .container {
   padding: 0 16px;
   width: 100px;
+  row-gap: 200%;
+
 }
+
+/* #wineGlass{
+  margin-left: 70rem;
+} */
 
 .container::after,
 .row::after {
@@ -74,7 +80,8 @@ p {
 .title {
   color: rgb(8, 243, 75);
   font-weight: bolder;
-  font-size: x-small;
+  font-size: 3rem;
+ 
 }
 
 .button {
@@ -91,6 +98,11 @@ p {
 
 .button:hover {
   background-color: #555;
+}
+
+.Nkosinathi
+{
+  margin-left: 65rem;
 }
 
 @media screen and (max-width: 650px) {
