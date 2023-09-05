@@ -1,4 +1,5 @@
 
+
 ### view all Products
 
 GET http://localhost:8000/api/products
@@ -10,5 +11,3 @@ GET http://localhost:8000/
 ### get a single products
 
 GET http://localhost:8000/api/products/2
-
-
