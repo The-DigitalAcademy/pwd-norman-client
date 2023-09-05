@@ -4,13 +4,16 @@ import { useParams } from "react-router-dom";
 import Header from "./Header";
 import '../Css/ProductView.css'
 import Footer from "../pages/Footer";
+import cartManager from "../utils/cartManager";
+import Products from "./Products";
+
 function ProductView() {
   const { title } = useParams();
   return (
     <div className="background-Product">
       <Header />
       {data
-        .filter((menu) => menu.name === title)
+       .filter((menu) => menu.name === title)
         .map((menu, index) => (
           <div key={index} className="card">
             <img className="card-img-top" src={menu.image}alt="Card image cap" style={{ width: '600px' }}/>
@@ -19,6 +22,7 @@ function ProductView() {
               <p className="card-text">{menu.price}</p>
               <p className="card-text">Litre:{menu.litre}</p>
             </div>
+            <button className="btn btn-success" onClick={(e)=>cartManager.addItem(menu)}>Add To Cart</button>
           </div>
         ))}
       <Footer />
