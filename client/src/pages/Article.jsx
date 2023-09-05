@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from 'react'
 import '../Css/Article.css'
 
@@ -40,4 +38,3 @@ function Article() {
 }
 
 export default Article
->>>>>>> origin/main
