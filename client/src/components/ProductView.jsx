@@ -5,6 +5,7 @@ import Header from "./Header";
 import '../Css/ProductView.css'
 import Footer from "../pages/Footer";
 import cartManager from "../utils/cartManager";
+import Products from "./Products";
 
 function ProductView() {
   const { title } = useParams();
@@ -12,7 +13,7 @@ function ProductView() {
     <div className="background-Product">
       <Header />
       {data
-        .filter((menu) => menu.name === title)
+       .filter((menu) => menu.name === title)
         .map((menu, index) => (
           <div key={index} className="card">
             <img className="card-img-top" src={menu.image}alt="Card image cap" style={{ width: '600px' }}/>

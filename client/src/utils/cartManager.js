@@ -20,6 +20,7 @@ const cartManager = {
         if (itemIndex < 0) return
         cart.splice(itemIndex, 1)
         this.updateCart(cart)
+        window.location.reload(true)
     },
     updateCart: function(newCart) {
         const jsonCart = JSON.stringify(newCart)
